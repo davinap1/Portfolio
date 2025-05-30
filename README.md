@@ -17,7 +17,7 @@ This portfolio was built to:
 
 ---
 
-## 🛠 Built With
+##  Built With
 
 - **HTML**
 - **CSS**
