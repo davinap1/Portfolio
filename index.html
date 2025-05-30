@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+    <html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale =1.0">
+        <!-- Unicons -->
+        <link rel = "stylesheet" href = "https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Swiper CS -->
+        <link rel = "stylesheet" href="src/css/swiper-bundle.min.css">
+        <!-- CSS -->
+        <link rel = "stylesheet" href = "src/css/styles.css">
+
+        <link rel = "stylesheet" href = "src/js/main.js">
+
+        <title> Davina Pham's Portfolio</title>
+    </head>
+<body>
+    <!-- Header -->
+    <header class = "header" id = "header">
+        <nav class = "nav container" >
+            <a href = "#" class="nav__logo"> Davina Pham</a>
+            <div class = "nav__menu" id = "nav-menu">
+                <ul class = "nav__list grid">
+                    <li class = "nav__item">
+                        <a href = "#home" class = "nav__link active-link">
+                            <i class = "uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class = "nav__item">
+                        <a href = "#about" class = "nav__link"> About
+                        </a>
+                    </li>
+                    <li class = "nav__item">
+                        <a href = "#skills" class = "nav__link">
+                            <i class = "uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class = "nav__item">
+                        <a href = "#contact" class = "nav__link">
+                            <i class = "uil uil-message nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class = "uil uil-times nav__close" id = "nav-close"></i>
+            </div>
+
+            <div class = "nav__btns">
+                <!-- Theme change button -->
+                <i class = "uil uil-moon change-theme" id = "theme-button"></i>
+
+                <div class="nav__toggle" id = "nav-toggle">
+                    <i class = "uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- Main -->
+<main class = "main">
+    <!-- home -->
+    <section class = "home section" id = "home">
+        <div class = "home__container container grid">
+            <div class = "home__content grid">
+
+                <div class = "home__social">
+                    <a href = "https://www.linkedin.com/in/davina-pham-097552178/" target = "_blank" class="home__social-icon">
+                        <i class = "uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href = "https://github.com/davinap1" target = "_blank" class = "home__social-icon">
+                        <i class = "uil uil-github-alt"></i>
+                    </a>
+                </div>
+
+                <div class = "home__img">
+                        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="circleMask">
+                                <rect width="100%" height="100%" fill="black"/>
+                                <circle cx="100" cy="100" r="100" fill="white"/>
+                            </mask>
+
+                            <image
+                                    href="src/img/portraitphoto.png"
+                                    width="200"
+                                    height="200"
+                                    mask="url(#circleMask)"
+                                    preserveAspectRatio="xMidYMid slice"
+                            />
+                        </svg>
+                </div>
+
+                <div class = "home__data">
+                    <h1 class = "home__title">Welcome!</h1>
+                    <h3> My Name is Davina </h3>
+                    <a href = "#contact" class = "button button--flex">
+                        Contact Me <i class = "uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class = "home__scroll">
+                <a href = "#about" class = "home__scroll-button button--flex">
+                    <i class = "uil uil-mouse-alt home__scroll-mouse"></i>
+                    <span class = "home__scroll-name">Scroll Down</span>
+                    <i class = "uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class = "about section" id = "about">
+        <h2 class = "section__title"> About Me</h2>
+        <span class = "section__subtitle"> My Introduction</span>
+    <div class = "about__container container grid">
+        <img src = "/src/img/aboutMe.jpg" alt = "" class = "about__img">
+        <div class = "about__data">
+            <p class = "about__description"> Hi! I'm an aspiring developer currently building my skills in HTML, CSS,
+            and JavaScript while working on personal projects and obtaining a Masters in Computer Science.
+            I'm learning by building real projects and would love the opportunity where I can apply my skills
+            and contribute effectively. Let's connect and grow together! </p>
+
+            <div class = "about__buttons">
+                <a download = "" href = "src/pdf/DavinaPham2025Resume.pdf" class = "button button--flex">
+                    Download Resume <i class = "uil uil-download-alt button__icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Skills -->
+    <section class = "skills section" id = "skills">
+        <h2 class = "section__title">Skills</h2>
+        <span class = "section__subtitle">Technical Knowledge</span>
+        <div class = "skills__container container">
+
+            <div class = "skills__content skills__close">
+                <div class = "skills__header">
+                    <i class = "uil uil-brackets-curly skills__icon"></i>
+
+                    <div>
+                        <h1 class = "skills__title">Frontend Technologies</h1>
+                    </div>
+                    <i class = "uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class = "skills__list grid">
+                    <div class = "skills__data">
+                        <div class = "skills__titles">
+                            <h3 class = "skills__name"> HTML & CSS </h3>
+                        </div>
+                    </div>
+
+                    <div class = "skills__data">
+                        <div class = "skills__titles">
+                            <h3 class = "skills__name"> Swing </h3>
+                        </div>
+                    </div>
+
+                    <div class = "skills__data">
+                        <div class = "skills__titles">
+                            <h3 class = "skills__name"> Electron </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 2-->
+            <div class = "skills__content skills__close">
+                <div class = "skills__header">
+                    <i class = "uil uil-server skills__icon"></i>
+
+                    <div>
+                        <h1 class = "skills__title"> Backend Technologies </h1>
+                    </div>
+
+                    <i class = "uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class = "skills__list grid">
+                    <div class ="skills__data">
+                        <div class = "skills__titles">
+                            <h3 class = "skills__name"> MongoDB </h3>
+                        </div>
+                    </div>
+
+                    <div class ="skills__data">
+                        <div class = "skills__titles">
+                            <h3 class = "skills__name"> Node.js </h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Skill 3-->
+            <div class = "skills__content skills__close">
+                <div class = "skills__header">
+                    <i class = "uil uil-server skills__icon"></i>
+
+                    <div>
+                        <h1 class = "skills__title">Languages </h1>
+                    </div>
+
+                    <i class = "uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class = "skills__list grid">
+                    <div class = "skills__data">
+                        <div class = "skills__titles">
+                            <h3 class = "skills__name"> JavaScript </h3>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Java</h3>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Python </h3>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">C++</h3>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">C#</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Journey -->
+    <section class="qualification section">
+        <h2 class="section__title"> Qualifications </h2>
+        <span class="section__subtitle"> My personal journey</span>
+
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+                <div class="qualification__button button--flex qualification__active" data-target="#timeline">
+                    <i class="uil uil-graduation-cap qualification_icon"></i>
+                    Timeline
+                </div>
+            </div>
+
+            <div class="qualification_sections">
+                <div class="qualification__content qualification__active" data-content id="timeline">
+
+                    <!-- Qualification 1 (Left) -->
+                    <div class="qualification__data qualification__data--left">
+                        <div>
+                            <h3 class="qualification__title">B.S In Biological Sciences</h3>
+                            <span class="qualification__subtitle">University of California, Irvine</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i> 2016 - 2020
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div></div>
+                    </div>
+
+                    <!-- Qualification 2 (Right) -->
+                    <div class="qualification__data qualification__data--right">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Career in healthcare</h3>
+                            <span class="qualification__subtitle">Medical Assistant and Scribe</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i> 2020 - 2022
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Qualification 3 (Left) -->
+                    <div class="qualification__data qualification__data--left">
+                        <div>
+                            <h3 class="qualification__title">Computer Science Prerequisites</h3>
+                            <span class="qualification__subtitle">Orange Coast College</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i> 2022 - 2024
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div></div>
+                    </div>
+
+                    <!-- Qualification 4 (Right) -->
+                    <div class="qualification__data qualification__data--right">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Summer Internship</h3>
+                            <span class="qualification__subtitle">Cadence Molecular Sciences</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i> May - September 2024
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Qualification 5 (Left) -->
+                    <div class="qualification__data qualification__data--left">
+                        <div>
+                            <h3 class="qualification__title">M.S Computer Science</h3>
+                            <span class="qualification__subtitle">Georgia Institute of Technology</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i> Expected Summer 2026
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- No line needed if it's the last one -->
+                        </div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact me -->
+    <section class = "contact section" id = "contact">
+        <h2 class = "section__title">Contact Me</h2>
+        <span class = "section__subtitle">Let's connect</span>
+
+        <div class = "contact__container container grid">
+            <div>
+                <div class = "contact__information">
+                    <i class = "uil uil-phone contact__icon"></i>
+                    <div>
+                        <h3 class = "contact__title">Call Me</h3>
+                        <span class = "contact__subtitle">714-489-7414</span>
+                    </div>
+                </div>
+
+                <div class = "contact__information">
+                    <i class = "uil uil-envelope contact__icon"></i>
+                    <div>
+                        <h3 class = "contact__title">Email</h3>
+                        <span class = "contact__subtitle">davina.pham@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class = "contact__information">
+                    <i class = "uil uil-map-marker contact__icon"></i>
+                    <div>
+                        <h3 class = "contact__title">Location</h3>
+                        <span class = "contact__subtitle">Orange County, California</span>
+                    </div>
+                </div>
+            </div>
+
+            <form action = "https://formsubmit.co/davina.pham@gmail.com" method="POST" class="contact__form grid">
+                <div class = "contact__inputs grid">
+
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Name</label>
+                        <input type="text" name="name" id="name" class="contact__input" required>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="text" name="email" id="email" class="contact__input" required>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <label for="message" class="contact__label">Message</label>
+                    <textarea rows="7" name="message" id="message" class="contact__input" required></textarea>
+                </div>
+
+                <div>
+                    <button type = "submit" class = "button button--flex">
+                        Send Message
+                        <i class = "uil uil-message button__icon"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- footer -->
+<footer class = "footer">
+    <div class = "footer__bg">
+        <div class = "footer__container container grid">
+            <div>
+                <h1 class = "footer__title"> Davina Pham </h1>
+                <span class = "footer__subtitle">Portfolio</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+<!-- Swiper JS -->
+    <script src="/js/swiper-bundle.min.js"></script>
+<!-- main js -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
